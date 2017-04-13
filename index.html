@@ -1,5 +1,125 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Luwen's Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css" />
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+	<script src="js.js"></script>
+</head>
 <body>
-hello!
+	<header>
+		<div>
+			<span class="logo"><img src="img/logo.png" alt=""></span>
+			<span class="menubar"><i class="fa fa-bars"></i></span>
+			<div class="menu">
+				<ul>
+					<li class="menu-item" data-panelid="1">About Me</li>
+					<li class="menu-item" data-panelid="2">My Works</li>
+					<li class="menu-item" data-panelid="3">Profile</li>
+					<li class="menu-item" data-panelid="4">Contact</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="panel main">
+		<div class="main-title">
+			<h1 class="fname">LUWEN</h1>
+			<h1 class="sname">ZHANG</h1>
+			<div>I just sell different parts of myself.</div>
+		</div>
+		<div class="banner">
+			<ul>
+				<li class="slide" id="slide1"><img src="img/banner1.png"></li>
+				<li class="slide" id="slide2"><img src="img/banner2.png"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="panel about" id="panel1">
+		<h3>About Me</h3>
+		<div class="icons">
+			<div class="icon">
+				<i class="fa fa-camera" aria-hidden="true"></i>
+				<h5>Love Photography</h5>
+			</div>
+			<div class="icon">
+				<i class="fa fa-trophy" aria-hidden="true"></i>
+				<h5>young ambitious</h5>
+			</div>
+			<div class="icon">
+				<i class="fa fa-home" aria-hidden="true"></i>
+				<h5>Otaku girl</h5>
+			</div>
+			<div class="icon">
+				<i class="fa fa-map" aria-hidden="true"></i>
+				<h5>Travel Explorer</h5>
+			</div>
+			<div class="icon">
+				<i class="fa fa-cutlery" aria-hidden="true"></i>
+				<h5>Food lover</h5>
+			</div>
+		</div>
+		<div class="about-me">I'm a visual communication designer live in Beijing, China. Studying at Massey university in New Zealand. I have a passion for brand design, graphic design and photography. And love to create identity for you.
+</div>
+	</div>
+	<div class="panel works" id="panel2">
+		<h3>My Works</h3>
+		<a href="img/img1.jpg" data-lightbox="lightbox"><img src="img/img1.jpg" class="imgs"></a>
+		<a href="img/img2.jpg" data-lightbox="lightbox"><img src="img/img2.jpg" class="imgs"></a>
+		<a href="img/img3.jpg" data-lightbox="lightbox"><img src="img/img3.jpg" class="imgs"></a>
+		<a href="img/img4.jpg" data-lightbox="lightbox"><img src="img/img4.jpg" class="imgs"></a>
+		<a href="img/img5.jpg" data-lightbox="lightbox"><img src="img/img5.jpg" class="imgs"></a>
+	</div>
+	<div class="panel profile" id="panel3">
+		<h3>Profile</h3>
+		<div class="profile-info">
+			<div class="education">
+				<h5 class="edu-title">Education</h5>
+				<p>More than an designer, I sees myself as a creator of universes, conveying stories and images. I create solutions like animated interactive pages provoking emotion in the public. All this on the border between art, design and technological innovation. It’s important for the world that I tell the stories of the many people I encounter on my journeys.
+</p>
+			</div>
+			<div class="experience">
+				<h5 class="exp-title">Experience</h5>
+				<p>More than an designer, I sees myself as a creator of universes, conveying stories and images. I create solutions like animated interactive pages provoking emotion in the public. All this on the border between art, design and technological innovation. It’s important for the world that I tell the stories of the many people I encounter on my journeys.
+</p>
+			</div>
+		</div>
+		<div class="icons">
+			<div class="icon">
+				<img src="img/ps.jpg">
+				<h5>75%</h5>
+			</div>
+			<div class="icon">
+				<img src="img/ai.jpg">
+				<h5>55%</h5>
+			</div>
+			<div class="icon">
+				<img src="img/ae.jpg">
+				<h5>30%</h5>
+			</div>
+			<div class="icon">
+				<img src="img/id.jpg">
+				<h5>65%</h5>
+			</div>
+			<div class="icon">
+				<img src="img/html.jpg">
+				<h5>50%</h5>
+			</div>
+		</div>
+	</div>
+	<div class="panel contact" id="panel4">
+		<h3>Contact Me</h3>
+		<img src="img/avator.jpg" class="avator">
+		<p class="contact-info">2508671823@qq.com</p>
+		<p class="contact-info">02102711308</p>
+	</div>
+
+	<i class="fa fa-chevron-up back2top" aria-hidden="true"></i>
 </body>
 </html>
